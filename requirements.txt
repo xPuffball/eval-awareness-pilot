@@ -1,0 +1,13 @@
+# torch: install the CUDA 12.8 build first (needed for RTX 50-series):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+transformers>=5.5
+accelerate
+bitsandbytes
+datasets
+pandas
+pyarrow
+scikit-learn
+scipy
+matplotlib
+tabulate
+jlens @ git+https://github.com/anthropics/jacobian-lens
