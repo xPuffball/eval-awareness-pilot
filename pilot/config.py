@@ -35,7 +35,7 @@ MODELS = {
         lens_file="qwen3-4b/jlens/Salesforce-wikitext/Qwen3-4B_jacobian_lens.pt",
     ),
     "qwen3-8b": ModelSpec(
-        "qwen3-8b", "Qwen/Qwen3-8B", load_in_4bit=True, batch_size=8,
+        "qwen3-8b", "Qwen/Qwen3-8B", load_in_4bit=True, batch_size=4,
         lens_file="qwen3-8b/jlens/Salesforce-wikitext/Qwen3-8B_jacobian_lens.pt",
     ),
 }

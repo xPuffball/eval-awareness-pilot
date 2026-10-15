@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editor / agent tool state
+.vscode/
+.idea/
+.claude/
+.remember/
+.serena/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Run logs (results data itself is tracked)
+results/*.log
